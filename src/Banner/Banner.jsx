@@ -86,7 +86,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block fixed top-0 right-0 h-[855px] w-[70px] z-50">
+        <div className="hidden lg:block absolute top-0 right-0 h-[855px] w-[70px] z-50">
           <div className="relative h-full w-full bg-gradient-to-b from-[#291728] via-[#29212d] to-[#201f22]">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-180 [writing-mode:vertical-rl] text-white flex flex-row items-center gap-8">
               <h2 className="text-white text-[12px]">
