@@ -2,7 +2,7 @@ import React from "react";
 import FutureStyle from "./FutureStyle/FutureStyle.module.css";
 const FutureEvents = () => {
   return (
-    <div className="bg-[#111111]">
+    <div>
       <div className="lg:w-[1320px] w-full mx-auto">
         <div>
           <div className="text-white">
