@@ -1,0 +1,47 @@
+.textStroke {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}
+
+.animateMarquee {
+  animation: scroll 15s linear infinite;
+}
+
+.curve {
+  transform: rotate(25deg);
+  border-radius: 100px 200px 200px 200px;
+  -webkit-border-radius: 100px 200px 200px 200px;
+  -moz-border-radius: 100px 200px 200px 200px;
+}
+
+.line::after {
+  content: "";
+  width: 0.2px;
+  height: 70px;
+  left: 10px;
+  top: -50px;
+  background-color: #493391;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+.line::before {
+  content: "";
+  width: 0.2px;
+  height: 70px;
+  left: 10px;
+  top: 65px;
+  background-color: #493391;
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
