@@ -5,7 +5,7 @@ import React from "react";
 const AboutConference = () => {
   return (
     <div className="lg:w-[1320px] w-full mx-auto">
-      <div className="text-white lg:pt-10 lg:pb-24">
+      <div className="text-white lg:pt-10 lg:pb-24 pb-4">
         <div>
           <div className="flex lg:flex-row flex-col items-center gap-16">
             <div>
@@ -93,6 +93,70 @@ const AboutConference = () => {
                   <h2 className="text-base lg:text-xl lg:w-[380px] lg:mt-10">
                     Join us as we redefine conference for the 21st century!
                   </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="text-white lg:pt-[100px] pt-4">
+            <div className="grid lg:grid-cols-4 gap-2 lg:gap-4 grid-cols-2">
+              <div className="border-[#2f2158] border-[1px] flex justify-center items-center py-10 lg:py-20">
+                <div className="flex items-center gap-3">
+                  <Image
+                    src={"/brand1.svg"}
+                    width={20}
+                    height={20}
+                    alt=""
+                    className="w-[40px] h-[40px]"
+                  />
+                  <div>
+                    <h2 className="text-gray-200 text-sm">Micro</h2>
+                    <h2 className="text-gray-200 text-sm">Software</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="border-[#2f2158] border-[1px] flex justify-center items-center py-10 lg:py-20">
+                <div className="flex items-center gap-3">
+                  <Image
+                    src={"/brand2.svg"}
+                    width={20}
+                    height={20}
+                    alt=""
+                    className="w-[40px] h-[40px]"
+                  />
+                  <div>
+                    <h2 className="text-gray-200 text-sm">Micro</h2>
+                    <h2 className="text-gray-200 text-sm">Software</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="border-[#2f2158] border-[1px] flex justify-center items-center py-10 lg:py-20">
+                <div className="flex items-center gap-3">
+                  <Image
+                    src={"/brand3.svg"}
+                    width={20}
+                    height={20}
+                    alt=""
+                    className="w-[40px] h-[40px]"
+                  />
+                  <div>
+                    <h2 className="text-gray-200 text-sm">Micro</h2>
+                    <h2 className="text-gray-200 text-sm">Software</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="border-[#2f2158] border-[1px] flex justify-center items-center py-10 lg:py-20">
+                <div className="flex items-center gap-3">
+                  <Image
+                    src={"/brand4.svg"}
+                    width={20}
+                    height={20}
+                    alt=""
+                    className="w-[40px] h-[40px]"
+                  />
+                  <div>
+                    <h2 className="text-gray-200 text-sm">Micro</h2>
+                    <h2 className="text-gray-200 text-sm">Software</h2>
+                  </div>
                 </div>
               </div>
             </div>
