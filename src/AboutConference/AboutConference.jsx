@@ -16,7 +16,7 @@ const AboutConference = () => {
                   width={600}
                   height={400}
                   alt="conferrence"
-                  className="lg:w-[540px] lg:h-[560px]"
+                  className="lg:w-[540px] w-full lg:h-[560px]"
                 />
                 <div className="flex lg:flex-row flex-col items-center">
                   <Image
@@ -31,7 +31,7 @@ const AboutConference = () => {
                     width={240}
                     height={340}
                     alt="conferrence"
-                    className="lg:w-[240px] w-full lg:h-[330px]"
+                    className="lg:w-[240px] w-full lg:h-[330px] "
                   />
                 </div>
               </div>

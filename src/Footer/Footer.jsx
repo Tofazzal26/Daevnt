@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-[#000006] h-[600px] lg:h-[500px] relative ">
       <div className={`${FooterStyle.ellipse} lg:py-0 py-4`}>
-        <div className={`${FooterStyle.circle}`}></div>
+        <div className={`${FooterStyle.circle} hidden lg:block`}></div>
         <div className="lg:translate-y-[150px]">
           <div className="2xl:w-[1320px] lg:w-[1150px] mx-auto">
             <div>

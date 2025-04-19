@@ -106,7 +106,7 @@ const Pricing = () => {
               dialogue on the future of learning.
             </p>
           </div>
-          <div className="flex gap-4 lg:gap-10">
+          <div className="flex lg:justify-start justify-center gap-4 lg:gap-10">
             <div className="bg-[#F8F6FF] p-2 lg:p-10">
               <div className="text-center">
                 <h2 className="">Premium Pass</h2>

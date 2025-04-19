@@ -10,10 +10,10 @@ const FutureEvents = () => {
             <h2 className="text-4xl text-white uppercase pt-8 pb-3 lg:pt-20 lg:pb-4">
               FutureEvents
             </h2>
-            <div className="py-10">
+            <div className="lg:py-10">
               <div className="space-y-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[200px]">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-around lg:justify-between items-center">
                     <div>
                       <h2 className={`border-b-[1px] border-gray-50 w-[195px]`}>
                         The Future of AI Trends &
@@ -34,7 +34,7 @@ const FutureEvents = () => {
                       <h4 className="text-sm text-[#D5D4D4]">March 2025</h4>
                     </div>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-around lg:justify-between items-center">
                     <div>
                       <h2 className="text-sm text-[#afafaf]">
                         10:00 AM – 12:00 PM
@@ -48,7 +48,7 @@ const FutureEvents = () => {
                   </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[200px] border-y-[1px] border-gray-700 py-8">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-around lg:justify-between items-center">
                     <div>
                       <h2>Cybersecurity Protecting</h2>
                       <h2>Data & Privacy</h2>
@@ -65,7 +65,7 @@ const FutureEvents = () => {
                       <h4 className="text-sm text-[#D5D4D4]">March 2025</h4>
                     </div>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-around lg:justify-between items-center">
                     <div>
                       <h2 className="text-sm text-[#afafaf]">
                         10:00 AM – 12:00 PM
@@ -77,7 +77,7 @@ const FutureEvents = () => {
                   </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[200px] border-b-[1px] border-gray-700 pb-8">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-around lg:justify-between items-center">
                     <div>
                       <h2>Blockchain & Web3 Beyond</h2>
                       <h2>Cryptocurrency</h2>
@@ -94,7 +94,7 @@ const FutureEvents = () => {
                       <h4 className="text-sm text-[#D5D4D4]">March 2025</h4>
                     </div>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-around lg:justify-between items-center">
                     <div>
                       <h2 className="text-sm text-[#afafaf]">
                         10:00 AM – 12:00 PM
