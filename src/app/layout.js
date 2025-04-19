@@ -1,6 +1,7 @@
 import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Header from "@/Header/Header";
+import Footer from "@/Footer/Footer";
 
 export const metadata = {
   title: "Daevnt",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${bricolage.className}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
