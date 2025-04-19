@@ -4,7 +4,7 @@ import FutureStyle from "./FutureStyle/FutureStyle.module.css";
 const FutureEvents = () => {
   return (
     <div>
-      <div className="lg:w-[1320px] w-full mx-auto">
+      <div className="2xl:w-[1320px] lg:w-[1150px] w-full mx-auto">
         <div>
           <div className="text-white">
             <h2 className="text-4xl text-white uppercase pt-8 pb-3 lg:pt-20 lg:pb-4">

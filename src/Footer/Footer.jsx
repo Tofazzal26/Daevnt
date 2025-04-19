@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={`${FooterStyle.ellipse} lg:py-0 py-4`}>
         <div className={`${FooterStyle.circle}`}></div>
         <div className="lg:translate-y-[150px]">
-          <div className="lg:w-[1320px] mx-auto">
+          <div className="2xl:w-[1320px] lg:w-[1150px] mx-auto">
             <div>
               <div className="flex lg:flex-row flex-col justify-between">
                 <div>
@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="lg:translate-y-[220px]">
-          <div className="lg:w-[1320px] mx-auto">
+          <div className="2xl:w-[1320px] lg:w-[1150px] mx-auto">
             <div className="flex lg:flex-row flex-col justify-between items-center py-6">
               <div>
                 <h2 className="text-[12px] text-gray-300">

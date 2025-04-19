@@ -6,7 +6,7 @@ const Header = () => {
     <div className="bg-[#14111a] ">
       <div className="relative z-10">
         <div className="lg:pt-[10px]">
-          <div className="navbar lg:w-[1320px] mx-auto ">
+          <div className="navbar lg:w-[1150px] 2xl:w-[1320px] mx-auto ">
             <div className="navbar-start ">
               <div className="dropdown">
                 <div

@@ -5,7 +5,7 @@ import React from "react";
 
 const AboutConference = () => {
   return (
-    <div className="lg:w-[1320px] w-full mx-auto">
+    <div className="2xl:w-[1320px] lg:w-[1150px] w-full mx-auto">
       <div className="text-white lg:pt-10 lg:pb-24 pb-4">
         <div>
           <div className="flex lg:flex-row flex-col items-center gap-16">

@@ -8,7 +8,7 @@ const RecentBlog = () => {
     <div className="container mx-auto">
       <div className="text-white py-8 lg:py-[100px]">
         <div>
-          <h2 className="text-xl lg:text-4xl lg:mb-0 mb-4 lg:ml-[165px]">
+          <h2 className="text-xl lg:text-4xl lg:mb-0 mb-4 lg:ml-[40px] 2xl:ml-[165px]">
             RECENT BLOG
           </h2>
           <div className="flex lg:flex-row lg:gap-0 gap-4 flex-col justify-center items-center">
