@@ -14,10 +14,10 @@
 
 .circle {
   position: absolute;
-  top: 60;
+  top: 80;
   left: 50;
   width: 250px;
-  height: 400px;
+  height: 300px;
   border-radius: 90% 10% 90% 10% / 90% 10% 90% 10%;
   background: linear-gradient(
     135deg,
