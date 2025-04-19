@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import FutureStyle from "./FutureStyle/FutureStyle.module.css";
 const FutureEvents = () => {
