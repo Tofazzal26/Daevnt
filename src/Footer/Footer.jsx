@@ -5,7 +5,7 @@ import FooterStyle from "./FooterStyle/FooterStyle.module.css";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000006] h-[500px] relative ">
+    <div className="bg-[#000006] h-[600px] lg:h-[500px] relative ">
       <div className={`${FooterStyle.ellipse} lg:py-0 py-4`}>
         <div className={`${FooterStyle.circle}`}></div>
         <div className="lg:translate-y-[150px]">
@@ -26,7 +26,7 @@ const Footer = () => {
                     Pellentesque nec tempor sapien. Pellentesque vel placerat
                     nibh. Suspendisse venenatis.
                   </p>
-                  <div className="mt-4 lg:mt-14 gap-4 flex justify-between items-center">
+                  <div className="mt-4 lg:mt-14 gap-4 flex lg:flex-row flex-col justify-between lg:items-center">
                     <h2 className="text-[12px] text-gray-300">
                       Enter Your Email Address
                     </h2>
@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-50 right-50">
+        <div className="lg:translate-y-[220px]">
           <div className="lg:w-[1320px] mx-auto">
             <div className="flex lg:flex-row flex-col justify-between items-center py-6">
               <div>
