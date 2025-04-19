@@ -19,7 +19,7 @@ const Banner = () => {
                 <h4 className="lg:text-sm text-[12px]">Start Registration:</h4>
                 <h2 className="text-lg lg:text-3xl">25 March 2025</h2>
               </div>
-              <div className="2xl:absolute lg:absolute lg:top-[-85px] 2xl:top-[-85px] 2xl:right-[650px] lg:right-[480px] 2xl:ml-0 ml-[70px]">
+              <div className="2xl:absolute lg:absolute lg:top-[-85px] 2xl:top-[-85px] 2xl:right-[650px] lg:right-[480px] 2xl:ml-0 ml-[70px] ">
                 <Image
                   src={"/man.svg"}
                   alt="man"
@@ -52,7 +52,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="absolute 2xl:bottom-0 lg:bottom-[16px] w-full">
+          <div className="absolute 2xl:bottom-0 lg:bottom-[16px] bottom-0 w-full">
             <div className="bg-[#7546FF] py-1 2xl:py-3 lg:py-2 whitespace-nowrap">
               <div>
                 <div className="flex items-center gap-2 lg:gap-6">

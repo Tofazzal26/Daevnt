@@ -14,12 +14,17 @@
 
 .circle {
   position: absolute;
-  top: 60;
+  top: 26;
   left: 50;
   width: 250px;
   height: 400px;
   border-radius: 90% 10% 90% 10% / 90% 10% 90% 10%;
-  background-color: #0f2039;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 32, 57, 1),
+    rgba(15, 32, 57, 0.6),
+    rgba(15, 32, 57, 0.3),
+    rgba(15, 32, 57, 0)
+  );
   transform: rotate(-20deg);
-  filter: blur(60);
 }
