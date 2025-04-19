@@ -55,25 +55,25 @@ const Banner = () => {
           <div className="absolute bottom-0 w-full">
             <div className="bg-[#7546FF] py-1 lg:py-3 whitespace-nowrap">
               <div>
-                <div className="flex items-center gap-6">
-                  <div className="flex items-center gap-6">
+                <div className="flex items-center gap-2 lg:gap-6">
+                  <div className="flex items-center gap-2 lg:gap-6">
                     <div className="bg-[#FFD6B3] w-[15px] h-[15px] rounded-full"></div>
-                    <h2 className="text-base lg:text-3xl">Online Conference</h2>
+                    <h2 className="text-sm lg:text-3xl">Online Conference</h2>
                     <div className="bg-[#FFD6B3] w-[15px] h-[15px] rounded-full"></div>
                   </div>
-                  <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-2 lg:gap-6">
                     <h1
-                      className={`text-base lg:text-3xl ${BannerStyle.textStroke}`}
+                      className={`text-sm lg:text-3xl ${BannerStyle.textStroke}`}
                     >
                       Nextgen Conference Experience
                     </h1>
                     <div className="bg-[#FFD6B3] w-[15px] h-[15px] rounded-full"></div>
                   </div>
-                  <div className="flex items-center gap-6">
+                  <div className="hidden lg:flex items-center gap-2 lg:gap-6">
                     <h2 className="text-base lg:text-3xl">Online Conference</h2>
                     <div className="bg-[#FFD6B3] w-[15px] h-[15px] rounded-full"></div>
                   </div>
-                  <div className="flex items-center gap-6">
+                  <div className="hidden lg:flex items-center gap-2 lg:gap-6">
                     <h1
                       className={`text-base lg:text-3xl ${BannerStyle.textStroke}`}
                     >
