@@ -52,8 +52,8 @@ const Banner = () => {
             </div>
           </div>
           <div className="absolute bottom-0 w-full">
-            <div className="bg-[#7546FF] py-1 lg:py-3 overflow-hidden whitespace-nowrap">
-              <div className={BannerStyle.animateMarquee}>
+            <div className="bg-[#7546FF] py-1 lg:py-3 whitespace-nowrap">
+              <div>
                 <div className="flex items-center gap-6">
                   <div className="flex items-center gap-6">
                     <div className="bg-[#FFD6B3] w-[15px] h-[15px] rounded-full"></div>
