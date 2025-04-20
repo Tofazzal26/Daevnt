@@ -6,7 +6,7 @@ import FooterStyle from "./FooterStyle/FooterStyle.module.css";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000006] h-[640px] lg:h-[500px] relative ">
+    <div className="bg-[#000006] h-[660px] lg:h-[500px] relative ">
       <div className={`${FooterStyle.ellipse} lg:py-0 py-4`}>
         <div className={`${FooterStyle.circle} hidden lg:block`}></div>
         <div className="w-full h-[1px] bg-[#171c59] absolute bottom-[70px] lg:bottom-[80px]"></div>
