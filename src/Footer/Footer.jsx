@@ -6,7 +6,7 @@ import FooterStyle from "./FooterStyle/FooterStyle.module.css";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000006] h-[626px] lg:h-[500px] relative ">
+    <div className="bg-[#000006] h-[640px] lg:h-[500px] relative ">
       <div className={`${FooterStyle.ellipse} lg:py-0 py-4`}>
         <div className={`${FooterStyle.circle} hidden lg:block`}></div>
         <div className="w-full h-[1px] bg-[#171c59] absolute bottom-[70px] lg:bottom-[80px]"></div>
@@ -85,11 +85,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="lg:translate-y-[230px]">
+        <div className="lg:translate-y-[230px] translate-y-[15px]">
           <div className="2xl:w-[1320px] lg:w-[1150px] mx-auto">
             <div className="flex lg:flex-row flex-col justify-between items-center py-6">
               <div>
-                <h2 className="text-[12px] text-gray-300">
+                <h2 className="text-[12px] text-gray-300 lg:pt-0 pt-3">
                   © 2025 Thememarch. All Rights Reserved.
                 </h2>
               </div>
