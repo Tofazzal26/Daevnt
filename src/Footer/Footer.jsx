@@ -1,15 +1,18 @@
 "use client";
-import { ArrowRight, Linkedin } from "lucide-react";
+import { ArrowRight, ArrowUpFromDot, Linkedin } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import FooterStyle from "./FooterStyle/FooterStyle.module.css";
 
 const Footer = () => {
   return (
-    <div className="bg-[#000006] h-[610px] lg:h-[500px] relative ">
+    <div className="bg-[#000006] h-[620px] lg:h-[500px] relative ">
       <div className={`${FooterStyle.ellipse} lg:py-0 py-4`}>
         <div className={`${FooterStyle.circle} hidden lg:block`}></div>
         <div className="w-full h-[1px] bg-[#171c59] absolute bottom-[70px] lg:bottom-[80px]"></div>
+        <div className="lg:w-[55px] w-[40px] h-[40px] lg:h-[55px] bg-white absolute bottom-12  lg:bottom-14 right-6 lg:right-10 rounded-full flex justify-center items-center">
+          <ArrowUpFromDot size={20} />
+        </div>
         <div className="lg:translate-y-[150px]">
           <div className="2xl:w-[1320px] lg:w-[1150px] mx-auto">
             <div>
